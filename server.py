@@ -10,7 +10,6 @@ _logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 _logger.setLevel(logging.DEBUG)
 
-CLIENT_QUEUES = {}
 CLIENT_SOCKETS = {}
 USER_DICT = {}
 
